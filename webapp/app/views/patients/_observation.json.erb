@@ -1,0 +1,12 @@
+{
+	"resourceType" : "Observation",
+	"name" : "<%= current_observation['name'] %>",
+	"createdAt" : "<%= current_observation['timestamp'] %>",
+	"status" : "final",
+	"category" : "laboratory",
+	"ValueQuantity" : {
+		"value": <%= current_observation['value']%>,
+		"unit": "<%= current_observation['unit']%>"
+	}
+	"interpretation" : "normal"
+},

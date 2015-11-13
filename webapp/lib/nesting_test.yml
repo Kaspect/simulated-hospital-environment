@@ -1,0 +1,9 @@
+obs:
+  heartrate:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [0,100] 
+  temperature:
+    unit: "F"
+    distribution: "uniform"
+    range: [38,100]

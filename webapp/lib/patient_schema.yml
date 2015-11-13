@@ -1,0 +1,6 @@
+patient_name:
+  source: [Firsty McNamey, Secondy Lastaname, Thirty Nametaga]
+  selection_type: 'uar_element_from_list'
+patient_city:
+  source: [la, ny, sf]
+  selection_type: 'uar_element_from_list'

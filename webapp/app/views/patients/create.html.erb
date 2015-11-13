@@ -1,0 +1,8 @@
+<pre>
+<%= render :partial => 'bundle_header.json.erb'%>
+<% @patients.each do |patient| %>
+	<%= render :partial => 'patient.json.erb', locals: {current_patient: patient}%>
+<% end %>
+<%= render :partial => 'bundle_footer.json.erb'%>
+
+</pre>

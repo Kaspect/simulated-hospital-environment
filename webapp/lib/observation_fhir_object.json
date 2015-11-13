@@ -1,0 +1,8 @@
+{
+	"resourceType" : "Observation",
+	"status":"final",
+	"name" : "paO2",
+	"createdAt" : "<dateTime>",
+	"ValueQuantity":"Float",
+	"interpretation":"normal"
+}

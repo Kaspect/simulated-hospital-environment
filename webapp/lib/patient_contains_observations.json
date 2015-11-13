@@ -1,0 +1,164 @@
+{
+  "patient": [
+    {
+      "fname": null
+    }, 
+    {
+      "lname": null
+    }, 
+    {
+      "ethnicity": [
+        {
+          "white": null, 
+          "unit": null
+        }, 
+        {
+          "asian": null, 
+          "unit": null
+        }, 
+        {
+          "distribution": "uniform", 
+          "african_american": null, 
+          "unit": null
+        }
+      ]
+    }, 
+    {
+      "nationality": null
+    }, 
+    {
+      "organdonorstatus": [
+        true, 
+        false
+      ]
+    }
+  ], 
+  "observations": {
+    "sbp": {
+      "dailyOccurences": 2880, 
+      "distribution": "uniform", 
+      "range": [
+        90, 
+        120
+      ], 
+      "unit": "bpm"
+    }, 
+    "heartrate": {
+      "dailyOccurences": 2880, 
+      "distribution": "uniform", 
+      "range": [
+        80, 
+        100
+      ], 
+      "unit": "bpm"
+    }, 
+    "temperature": {
+      "dailyOccurences": 6, 
+      "distribution": "uniform", 
+      "range": [
+        36, 
+        38
+      ], 
+      "unit": "c"
+    }, 
+    "weight": {
+      "dailyOccurences": 2, 
+      "distribution": "uniform", 
+      "range": [
+        5, 
+        60
+      ], 
+      "unit": "kg"
+    }, 
+    "respirationrate": {
+      "dailyOccurences": 2880, 
+      "distribution": "uniform", 
+      "range": [
+        12, 
+        20
+      ], 
+      "unit": "rpm"
+    }, 
+    "ast": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        5, 
+        40
+      ], 
+      "unit": "units/L"
+    }, 
+    "crp": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        1, 
+        1
+      ], 
+      "unit": "mg/L"
+    }, 
+    "height": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        24, 
+        72
+      ], 
+      "unit": "in"
+    }, 
+    "plt": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        150000, 
+        450000
+      ], 
+      "unit": "platelets/microliter"
+    }, 
+    "wbc": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        5000, 
+        10000
+      ], 
+      "unit": "units/mm^3"
+    }, 
+    "dbp": {
+      "dailyOccurences": 2880, 
+      "distribution": "uniform", 
+      "range": [
+        60, 
+        80
+      ], 
+      "unit": "bpm"
+    }, 
+    "alt": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        7, 
+        56
+      ], 
+      "unit": "units/L"
+    }, 
+    "hgb": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        12, 
+        17
+      ], 
+      "unit": "g/.1L"
+    }, 
+    "esr": {
+      "dailyOccurences": 1, 
+      "distribution": "uniform", 
+      "range": [
+        0, 
+        4
+      ], 
+      "unit": "mm/hr"
+    }
+  }
+}

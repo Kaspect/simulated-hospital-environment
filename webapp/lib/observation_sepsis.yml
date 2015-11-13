@@ -1,0 +1,71 @@
+obs:
+  weight:
+    unit: "kg"
+    distribution: "uniform"
+    range: [5,60]
+    dailyOccurences: 6
+  height:
+    unit: "in"
+    distribution: "uniform"
+    range: [24,72]
+    dailyOccurences: 6
+  respirationrate:
+    unit: "rpm"
+    distribution: "uniform"
+    range: [20,30]
+    dailyOccurences: 2880
+  heartrate:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [90,140]
+    dailyOccurences: 1
+  temperature:
+    unit: "c"
+    distribution: "uniform"
+    range: [38,40]
+    dailyOccurences: 2880
+  sbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [60,90]
+    dailyOccurences: 2880
+  dbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [30,60]
+    dailyOccurences: 6
+  crp:
+    unit: "mg/L"
+    distribution: "uniform"
+    range: [1,1]
+    dailyOccurences: 6
+  esr:
+    unit: "mm/hr"
+    distribution: "uniform"
+    range: [0,4]
+    dailyOccurences: 6
+  hgb:
+    unit: "g/.1L"
+    distribution: "uniform"
+    range: [12,17]
+    dailyOccurences: 6
+  plt:
+    unit: "platelets/microliter"
+    distribution: "uniform"
+    range: [150000,450000]
+    dailyOccurences: 6
+  ast:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [5,40]
+    dailyOccurences: 6
+  alt:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [7,56]
+    dailyOccurences: 6
+  wbc:
+    unit: "units/mm^3"
+    distribution: "uniform"
+    range: [12000,20000]
+    dailyOccurences: 6

@@ -1,0 +1,12 @@
+patient:
+  ethnicity:
+    white:
+      unit: 
+    asian:
+      unit: 
+    african-american:
+      unit: 
+      distribution: "uniform"
+  nationality:
+
+  organ donor status: true

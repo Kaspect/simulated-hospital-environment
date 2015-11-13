@@ -1,0 +1,14 @@
+<h3>Simulated Hospital Environment</h3>
+
+<%= form_tag '/patients' do %>
+  
+  Patient Count:
+  <%= text_field_tag 'count' %>
+  <br>
+  Days of Observations to generate across all patients:
+  <%= text_field_tag 'days_of_observations' %>
+  <br>
+  Patient type: Healthy #TODO MAKE DROPDOWN
+  <br>
+  <%= submit_tag 'Submit' %>
+<% end %>

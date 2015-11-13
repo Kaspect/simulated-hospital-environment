@@ -1,0 +1,30 @@
+{
+  "resourceType" : "MedicationOrder",
+  "identifier" : [{ Identifier }], // External identifier
+  "dateWritten" : "<dateTime>", // When prescription was authorized
+  "status" : "<active>", // active | on-hold | completed | entered-in-error | stopped | draft
+  "patient" : { Reference(Patient) }, // Who prescription is for
+  "prescriber" : { Reference(Practitioner) }, // Who ordered the medication(s)
+  "encounter" : { Reference(Encounter) }, // Created during encounter/admission/stay
+  // reason[x]: Reason or indication for writing the prescription. One of these 2:
+  "reasonCodeableConcept" : { CodeableConcept },
+  "reasonReference" : { Reference(Condition) },
+  "note" : "<string>", // Information about the prescription
+  // medication[x]: Medication to be taken. One of these 2:
+  "dosageInstruction" : [{ // How medication should be taken
+    "text" : "<string>", // Dosage instructions expressed as text
+    "timing" : { Timing }, // When medication should be administered
+    // dose[x]: Amount of medication per dose. One of these 2:
+    "doseRange" : { Range },
+    "doseQuantity" : { Quantity(SimpleQuantity) },
+    "maxDosePerPeriod" : { Ratio } // Upper limit on medication per unit of time
+  }],
+    // medication[x]: Product to be supplied. One of these 2:
+    
+    "validityPeriod" : { Period }, // Time period supply is authorized for
+    "numberOfRepeatsAllowed" : "<positiveInt>", // Number of ref"medicationCodeableConcept" : { CodeableConcept },
+    "medicationReference" : { Reference(Medication) },ills authorized
+    "quantity" : { Quantity(SimpleQuantity) }, // Amount of medication to supply per dispense
+    "expectedSupplyDuration" : { Quantity(Duration) } // Number of days supply per dispense
+  },
+}

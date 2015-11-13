@@ -1,0 +1,155 @@
+patient: 
+  - fname: 
+  - lname: 
+  - ethnicity:
+    - white:
+      unit: 
+    - asian:
+      unit: 
+    - african_american:
+      unit: 
+      distribution: "uniform"
+  - nationality:
+  - organdonorstatus: [true,false]
+observations:
+  weight:
+    unit: "kg"
+    distribution: "uniform"
+    range: [5,60]
+    intermeasurement_interval_seconds: 43200
+  height:
+    unit: "in"
+    distribution: "uniform"
+    range: [24,72]
+    intermeasurement_interval_seconds: 86400
+  respirationrate:
+    unit: "rpm"
+    distribution: "uniform"
+    range: [12,20]
+    intermeasurement_interval_seconds: 30
+  heartrate:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [80,100]
+    intermeasurement_interval_seconds: 30
+  temperature:
+    unit: "c"
+    distribution: "uniform"
+    range: [36,38]
+    intermeasurement_interval_seconds: 14400
+  sbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [90,120]
+    intermeasurement_interval_seconds: 30
+  dbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [60,80]
+    intermeasurement_interval_seconds: 30
+  crp:
+    unit: "mg/L"
+    distribution: "uniform"
+    range: [1,1]
+    intermeasurement_interval_seconds: 86400
+  esr:
+    unit: "mm/hr"
+    distribution: "uniform"
+    range: [0,4]
+    intermeasurement_interval_seconds: 86400
+  hgb:
+    unit: "g/.1L"
+    distribution: "uniform"
+    range: [12,17]
+    intermeasurement_interval_seconds: 86400
+  plt:
+    unit: "platelets/microliter"
+    distribution: "uniform"
+    range: [150000,450000]
+    intermeasurement_interval_seconds: 86400
+  ast:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [5,40]
+    intermeasurement_interval_seconds: 86400
+  alt:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [7,56]
+    intermeasurement_interval_seconds: 86400
+  wbc:
+    unit: "units/mm^3"
+    distribution: "uniform"
+    range: [5000,10000]
+    intermeasurement_interval_seconds: 86400
+- obs:
+  weight:
+    unit: "kg"
+    distribution: "uniform"
+    range: [5,60]
+    intermeasurement_interval_seconds: 43200
+  height:
+    unit: "in"
+    distribution: "uniform"
+    range: [24,72]
+    intermeasurement_interval_seconds: 86400
+  respirationrate:
+    unit: "rpm"
+    distribution: "uniform"
+    range: [12,20]
+    intermeasurement_interval_seconds: 30
+  heartrate:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [80,100]
+    intermeasurement_interval_seconds: 30
+  temperature:
+    unit: "c"
+    distribution: "uniform"
+    range: [36,38]
+    intermeasurement_interval_seconds: 6
+  sbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [90,120]
+    intermeasurement_interval_seconds: 30
+  dbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [60,80]
+    intermeasurement_interval_seconds: 30
+  crp:
+    unit: "mg/L"
+    distribution: "uniform"
+    range: [1,1]
+    intermeasurement_interval_seconds: 86400
+  esr:
+    unit: "mm/hr"
+    distribution: "uniform"
+    range: [0,4]
+    intermeasurement_interval_seconds: 86400
+  hgb:
+    unit: "g/.1L"
+    distribution: "uniform"
+    range: [12,17]
+    intermeasurement_interval_seconds: 86400
+  plt:
+    unit: "platelets/microliter"
+    distribution: "uniform"
+    range: [150000,450000]
+    intermeasurement_interval_seconds: 86400
+  ast:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [5,40]
+    intermeasurement_interval_seconds: 86400
+  alt:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [7,56]
+    intermeasurement_interval_seconds: 86400
+  wbc:
+    unit: "units/mm^3"
+    distribution: "uniform"
+    range: [5000,10000]
+    intermeasurement_interval_seconds: 86400{}

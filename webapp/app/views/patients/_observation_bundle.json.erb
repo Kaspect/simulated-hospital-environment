@@ -1,0 +1,5 @@
+<%= render :partial => 'bundle_header.json.erb'%>
+<%= current_patient.observations.each do |obs| %>
+  <%= render :partial => 'observation.json.erb', locals: {current_observation:obs}%>
+<%end%>
+<%= render :partial => 'bundle_footer.json.erb'%>

@@ -1,0 +1,27 @@
+<h3>Simulated Hospital Environment</h3>
+
+<form action="">
+  Patient Amount:<br>
+  <input type="number" id="amount">
+  <br><br>
+  Patient Type:<br>
+  <select>
+  	<option>Healthy</option>
+  	<option>Around SIRS</option>
+  	<option>SIRS</option>
+  	<option>Sepsis</option>
+  </select><br><br>
+  Encounters: <br>
+  <input type="number" id="encounters">
+  <br><br>
+  <input type="submit" value="Generate">
+</form>
+
+<!-- erb dynamic version
+<%= form_for(@prototype) do |f| %>
+  <%= f.number_field :amount, label: "Number of Patients:" %>
+  <%= f.select :type [[1, "Healthy"], [2, "Around SIRS"], [3, "SIRS"], [4, "Sepsis"]], { label: "Select a Patient Type" } %>
+  <%= f.number_field :encounters, label: "Number of encounters:", value: '1' %>
+  <%= f.submit "Submit" %>
+<% end %>
+-->

@@ -1,0 +1,84 @@
+fpatient: 
+  - fname: 
+  - lname: 
+  - ethnicity:
+    - white:
+      unit: 
+    - asian:
+      unit: 
+    - african_american:
+      unit: 
+      distribution: "uniform"
+  - nationality:
+  - organdonorstatus: [true,false]
+observations:
+  weight:
+    unit: "kg"
+    distribution: "uniform"
+    range: [5,60]
+    intermeasurement_interval_seconds: 14400
+  height:
+    unit: "in"
+    distribution: "uniform"
+    range: [24,72]
+    intermeasurement_interval_seconds: 14400
+  respirationrate:
+    unit: "rpm"
+    distribution: "uniform"
+    range: [20,30]
+    intermeasurement_interval_seconds: 30
+  heartrate:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [90,140]
+    intermeasurement_interval_seconds: 86400
+  temperature:
+    unit: "c"
+    distribution: "uniform"
+    range: [38,40]
+    intermeasurement_interval_seconds: 30
+  sbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [60,90]
+    intermeasurement_interval_seconds: 30
+  dbp:
+    unit: "bpm"
+    distribution: "uniform"
+    range: [30,60]
+    intermeasurement_interval_seconds: 14400
+  crp:
+    unit: "mg/L"
+    distribution: "uniform"
+    range: [1,1]
+    intermeasurement_interval_seconds: 14400
+  esr:
+    unit: "mm/hr"
+    distribution: "uniform"
+    range: [0,4]
+    intermeasurement_interval_seconds: 14400
+  hgb:
+    unit: "g/.1L"
+    distribution: "uniform"
+    range: [12,17]
+    intermeasurement_interval_seconds: 14400
+  plt:
+    unit: "platelets/microliter"
+    distribution: "uniform"
+    range: [150000,450000]
+    intermeasurement_interval_seconds: 14400
+  ast:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [5,40]
+    intermeasurement_interval_seconds: 14400
+  alt:
+    unit: "units/L"
+    distribution: "uniform"
+    range: [7,56]
+    intermeasurement_interval_seconds: 14400
+  wbc:
+    unit: "units/mm^3"
+    distribution: "uniform"
+    range: [12000,20000]
+    intermeasurement_interval_seconds: 14400
